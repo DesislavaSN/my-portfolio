@@ -1,0 +1,420 @@
+body {
+  color: #351f39;
+  margin: 0px;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/*  ----------NAVBAR (bootstrap) SECTION------- */
+.navbar {
+  background-color: #ad9d9d;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  padding: 2% 4% 2%;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  /* text-transform: uppercase; */
+  letter-spacing: 1.4px;
+}
+
+#nav-bar-section a {
+  color: #351f39;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 0 20px;
+}
+
+/* --- INTRODUCTION ------------------------------------------INTRODUCTION--------------------------------------------- */
+#introduction {
+  background-color: #fccbcb;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  height: 900%;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.cont-introduction {
+  padding-bottom: 6%;
+}
+
+.row {
+  margin-top: 9%;
+}
+
+/* #introduction .col-lg-6 {
+  padding-left: 0;
+} */
+
+/*  -------------PROFILE SECTION------------- */
+
+
+.profile {
+  line-height: 1;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  left: 150px;
+}
+
+.responsive {
+  width: 240px;
+  height: auto;
+  padding: 60px 0 40px;
+}
+
+/* img {
+  width: 70%;
+  padding: 40px 0 40px;
+} */
+
+hr {
+  border-style: dotted none none;
+  /* border-color: #392428; */
+  border-color: #351f39;
+  border-width: 5px;
+  width: 10%;
+}
+
+.profile h1 {
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+.profile p {
+  padding: 5% 0 5%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.fab-cont {
+  /* background-color: #fff; */
+  margin-top: 5%;
+}
+
+.fab {
+  color: #351f39;
+  margin: 0 3%;
+}
+
+#introduction i:hover {
+  color: #fff;
+  font-size: 150%;
+}
+
+/* -------INTRO SECTION----------- */
+.intro {
+  position: relative;
+  left: 8%;
+
+  /* left: 10%; */
+}
+
+.intro h1 {
+  font-weight: bolder;
+  font-size: 6rem;
+  padding: 60px 0 30px;
+}
+
+.intro-p1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 3%;
+
+}
+
+.intro-p2 {
+  text-align: justify;
+  padding-top: 5%;
+  width: 400px;
+  line-height: 1.8rem;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+/* RESUME SECTION--------------------------------------------------------------------------  */
+#resume {
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  /* background: linear-gradient(-45deg, #fbf7f0, #d9e4dd, #cdc9c3, #bedbbb); */
+  text-align: center;
+  color: #351f39;
+  padding: 3% 0;
+}
+
+.frame {
+  background-color: #fccbcb;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  border: 5px solid #351f39;
+  border-radius: 10px;
+}
+
+#resume h2 {
+  font-size: 3rem;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+#resume p {
+  font-size: 1.4rem;
+  text-align: justify;
+  padding: 5%;
+  line-height: 2.5rem;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+/* EXPERIENCE SECTION------------------------------------------------------------------------- */
+#experience {
+  background-color: #fccbcb;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  text-align: center;
+  color: #351f39;
+  padding-bottom: 25px;
+}
+
+#experience h2 {
+  padding: 2% 0;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+#experience ol {
+  top: 100%;
+}
+
+#experience h4 {
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+#experience p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.carousel-item {
+  padding: 4% 15% 1%;
+}
+
+/*  EDUCATION SECTION---------------------------------------------------------------------------------------------------- */
+#education {
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  padding: 10px 0;
+}
+
+#education .row {
+  margin-top: 2%;
+}
+
+#education .col-lg-6 {
+  padding-bottom: 3%;
+  margin-bottom: 0;
+}
+
+.card-style {
+  border: 5px solid #351f39;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.card-header {
+  background-color: #ad9d9d;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  text-align: center;
+  font-weight: 600;
+}
+
+.card-body {
+  background-color: #fccbcb;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+}
+
+ul {
+  list-style-type: circle;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+/* FOOTER SECTION--------------------------------------------------------------------------------------------------------- */
+footer {
+  background-color: #ad9d9d;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  padding: 71px 0;
+}
+
+footer a {
+  margin: 0 3px;
+}
+
+footer i:hover {
+  color: #fff;
+  font-size: 150%;
+}
+
+.footer-icons {
+  display: inline-block;
+  width: 130px;
+  position: relative;
+  left: 73%;
+}
+
+footer p {
+  display: inline-block;
+  position: relative;
+  font-size: 1rem;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+#footer-year {
+  display: inline-block;
+  position: absolute;
+  left: 24%;
+  font-size: 1rem;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+/* CONTACT PAGE --------------------CONTACT PAGE--------------------------------CONTACT PAGE---------------------- */
+#contact-page {
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  font-family: 'Cabin', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-form {
+  margin: 180px 0 65px;
+  position: relative;
+  left: 32%;
+  width: 60%;
+  font-weight: bolder;
+}
+
+#contact-page h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 50px 0 35px;
+}
+
+input, textarea {
+  width: 60%;
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 3px solid #351f39;
+  border-radius: 10px;
+  font-size: 95%;
+}
+
+input:hover {
+  font-size: 110%;
+}
+
+textarea:hover {
+  font-size: 120%;
+}
+
+.form-btn {
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  border: none;
+  border-bottom: 3px solid #351f39;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 1% 2%;
+}
+
+.form-btn:hover {
+  opacity: 0.7;
+  font-size: 125%;
+}
+
+/* PROJECTS PAGE---------------------------PROJECTS PAGE--------------------------PROJECTS PAGE-------------------- */
+#projects-page {
+  background-color: #fccbcb;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 95%;
+  padding: 3% 3% 0;
+}
+
+.proj-heading {
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 125px;
+  padding-bottom: 50px;
+}
+
+.proj-container {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.proj-row {
+  margin-top: 0%;
+}
+
+.proj-col {
+  padding: 0 5% 1%;
+}
+
+#projects-page .card {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 9%;
+}
+
+
+#projects-page .card-body {
+  /* background-color: #fff; */
+}
+
+#projects-page h2 {
+  font-weight: bolder;
+}
+
+#projects-page p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+
+}
+
+#projects-page i {
+  margin: 15px 0 5px;;
+}
+
+/* #projects-page i:hover{
+  font-size: 350%;
+  opacity: 0.8;
+} */
+
+#projects-page a {
+  border: 3px solid #351f39;
+  color: #351f39;
+  font-weight:bolder;
+  margin: 0 0 10px;
+
+}
+
+#projects-page a:hover {
+  background-color: #fccbcb;
+  opacity: 0.7;
+  font-size: 140%;
+}
